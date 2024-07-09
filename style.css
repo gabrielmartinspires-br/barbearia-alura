@@ -1,6 +1,7 @@
 :root {
     --cinza: #cccccc;
     --vermelho: #ff0000;
+    --branco: #ffffff;
 }
 
 * {
@@ -27,6 +28,10 @@ body {
 
 em strong {
     color: var(--vermelho);
+}
+
+.beneficios {
+    background: var(--branco);
 }
 
 .itens {
