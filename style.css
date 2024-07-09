@@ -4,10 +4,7 @@
     --branco: #ffffff;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 #banner {
     width: 100%;
@@ -31,6 +28,7 @@ em strong {
 
 .beneficios {
     background: var(--branco);
+    padding: 20px;
 }
 
 .itens {
@@ -39,6 +37,13 @@ em strong {
 
 h2 {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 .imagem__beneficios {
