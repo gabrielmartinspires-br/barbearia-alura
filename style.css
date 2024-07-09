@@ -12,6 +12,10 @@ body {
     background: var(--cinza);
 }
 
+#banner {
+    width: 100%;
+}
+
 .corpo__titulo {
     text-align: center;
 }
