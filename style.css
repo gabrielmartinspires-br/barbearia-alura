@@ -5,6 +5,7 @@
 
 .corpo__titulo {
     text-align: center;
+    background: #cccccc;
 }
 .corpo__texto {
     font-size: 20px;
