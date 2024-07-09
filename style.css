@@ -1,14 +1,26 @@
+:root {
+    --cinza: #cccccc;
+    --vermelho: #ff0000;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    background: var(--cinza);
+}
+
 .corpo__titulo {
     text-align: center;
-    background: #cccccc;
 }
 .corpo__texto {
     font-size: 20px;
     text-align: center;
+    
 }
 
+em strong {
+    color: var(--vermelho);
+}
