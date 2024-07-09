@@ -4,7 +4,10 @@
     --branco: #ffffff;
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 #banner {
     width: 100%;
