@@ -28,3 +28,7 @@ body {
 em strong {
     color: var(--vermelho);
 }
+
+.itens {
+    font-style: italic;
+}
