@@ -14,7 +14,11 @@
     padding: 30px;
 }
 
-.corpo__titulo {
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 .corpo__texto {
@@ -33,10 +37,6 @@ em strong {
 
 .itens {
     font-style: italic;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul {
