@@ -4,12 +4,14 @@
     --branco: #ffffff;
 }
 
+
 #banner {
     width: 100%;
 }
 
 .principal {
     background: var(--cinza);
+    padding: 30px;
 }
 
 .corpo__titulo {
