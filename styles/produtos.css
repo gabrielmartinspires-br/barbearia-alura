@@ -16,17 +16,21 @@ nav {
     right: 0;
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+.menu__itens {
+    display: flex;
 }
 
-nav a {
+.menu__link {
+    margin-right: 15px;
     text-transform: uppercase;
     color: var(--preto);
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #f0d297;
 }
 
 .produtos {
@@ -40,13 +44,17 @@ nav a {
     width: 30%;
     margin: 0 1.5em;
     box-sizing: border-box;
-    border: 0.3em solid;
-    border-radius: 4%;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .produto__titulo {
     font-size: 30px;
     font-weight: 700;
+}
+
+.produto__imagem {
+    width: 100%;
 }
 
 .produto__descrição {
