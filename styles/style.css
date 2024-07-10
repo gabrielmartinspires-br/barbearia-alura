@@ -116,3 +116,7 @@ form label, form p {
     padding: 10px 20px;
     width: 50%;
 }
+
+.checkbox {
+    margin: 20px;
+}
