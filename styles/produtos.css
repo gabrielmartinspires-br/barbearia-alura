@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+.produtos {
+    display: flex;
+    justify-content: center;
+}
+
 .produtos li {
-    display: inline-block;
+    
 }
