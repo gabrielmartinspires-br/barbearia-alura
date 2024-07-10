@@ -44,6 +44,10 @@ nav a {
     font-weight: 700;
 }
 
+.produto__descrição {
+    font-size: 18px;
+}
+
 .produto__preço {
     font-size: 22px;
     font-weight: 700;
