@@ -80,3 +80,15 @@ nav {
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+.rodapé {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px 0;
+}
+
+.rodapé__copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
