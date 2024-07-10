@@ -104,6 +104,7 @@ form {
 
 form label {
     display: block;
+    font-size: 20px;
 }
 
 form input {
