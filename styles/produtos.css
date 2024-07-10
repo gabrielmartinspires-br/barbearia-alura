@@ -62,6 +62,10 @@ nav {
     font-weight: 700;
 }
 
+.produtos__links:hover .produto__titulo {
+    font-size: 34px;
+}
+
 .produto__imagem {
     width: 100%;
 }
