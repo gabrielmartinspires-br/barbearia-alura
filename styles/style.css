@@ -32,7 +32,7 @@ nav {
 }
 
 .menu__link:hover {
-    color: #f0d297;
+    color: var(--laranja);
     background-color: var(--preto);
 }
 
@@ -47,16 +47,16 @@ nav {
     width: 30%;
     margin: 0 1.5em;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid var(--preto);
     border-radius: 10px;
 }
 
 .produtos__links:hover {
-    border-color: #f0d297;
+    border-color: var(--laranja);
 }
 
 .produtos__links:active {
-    border-color: #088c19;
+    border-color: var(--verde);
 }
 
 .produto__titulo {
@@ -90,7 +90,7 @@ nav {
 }
 
 .rodapé__copyright {
-    color: #ffffff;
+    color: var(--branco);
     font-size: 13px;
     margin-top: 20px;
 }
