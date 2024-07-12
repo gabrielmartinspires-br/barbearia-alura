@@ -139,8 +139,7 @@ form label, form legend {
 }
 
 .formulário__enviar:hover {
-    background: var(--laranja-escuro);
-    
+    background: var(--laranja-escuro);    
     transform: scale(1.2);
 }
 
