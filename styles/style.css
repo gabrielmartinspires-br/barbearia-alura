@@ -22,6 +22,10 @@ nav {
     display: flex;
 }
 
+.menu__itens:hover {
+    transform: scale(1.2);
+}
+
 .menu__link {
     margin-right: 15px;
     text-transform: uppercase;
@@ -33,7 +37,7 @@ nav {
 
 .menu__link:hover {
     color: var(--laranja);
-    background-color: var(--preto);
+    background-color: var(--preto);    
 }
 
 .produtos {
