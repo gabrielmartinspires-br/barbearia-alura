@@ -1,10 +1,7 @@
 @import url("./styles/produtos.css");
 @import url("./styles/contato.css");
 
-:root {
-    --cinza: #cccccc;
-    --vermelho: #ff0000;
-    --branco: #ffffff;
+:root {    
     --preto: #000000;
 }
 
