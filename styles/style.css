@@ -151,3 +151,7 @@ thead {
     color: var(--branco);
     font-weight: 700;
 }
+td, th {
+    border: 1px solid var(--preto);
+    padding: 8px 15px;
+}
