@@ -1,5 +1,4 @@
-@import url("./styles/produtos.css");
-@import url("./styles/contato.css");
+@import url("/styles/style.css");
 
 :root {    
     --preto: #000000;
