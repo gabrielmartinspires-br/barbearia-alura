@@ -1,6 +1,3 @@
-@import url("./styles/produtos.css");
-@import url("./styles/contato.css");
-
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -127,5 +124,5 @@ form label, form legend {
 .formulário__enviar {
     width: 40%;
     padding: 15px 0;
-    background-color: var(--);
+    background-color: var(--laranja);
 }
