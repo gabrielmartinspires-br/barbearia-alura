@@ -141,3 +141,13 @@ form label, form legend {
     
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: var(--cinza-escuro);
+    color: var(--branco);
+    font-weight: 700;
+}
