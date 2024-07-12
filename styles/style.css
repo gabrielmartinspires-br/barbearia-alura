@@ -33,7 +33,7 @@ nav {
 
 .menu__link:hover {
     color: #f0d297;
-    background-color: #000000;
+    background-color: var(--preto);
 }
 
 .produtos {
