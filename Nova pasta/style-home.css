@@ -1,0 +1,56 @@
+:root {    
+    --preto: #000000;
+    --cinza: #cccccc;
+    --cinza-escuro: #555555;
+    --vermelho: #ff0000;
+    --branco: #ffffff;
+    --laranja: #ffa500;
+    --laranja-escuro: #ff8c00;
+    --verde: #088c19;
+}
+
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: var(--cinza);
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+.corpo__texto {
+    font-size: 20px;
+    text-align: center;
+}
+
+em strong {
+    color: var(--vermelho);
+}
+
+.beneficios {
+    background: var(--branco);
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem__beneficios {
+    width: 50%;
+}
