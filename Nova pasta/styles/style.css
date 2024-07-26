@@ -1,0 +1,158 @@
+@import url("/style-home.css");
+
+header {
+    background: var(--cinza);
+    padding: 20px 0;
+}
+
+.caixa {
+    justify-content: space-between;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.menu__itens {
+    display: flex;
+}
+
+
+.menu__link {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: var(--laranja);
+    background-color: var(--preto);
+    text-decoration: underline;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.produtos__links {
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5em;
+    box-sizing: border-box;
+    border: 2px solid var(--preto);
+    border-radius: 10px;
+}
+
+.produtos__links:hover {
+    border-color: var(--laranja);
+}
+
+.produtos__links:active {
+    border-color: var(--verde);
+}
+
+.produto__titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.produtos__links:hover .produto__titulo {
+    font-size: 34px;
+}
+
+.produto__imagem {
+    width: 100%;
+}
+
+.produto__descrição {
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+.produto__preço {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.rodapé {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px 0;
+}
+
+.rodapé__copyright {
+    color: var(--branco);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input__padrão {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.formulário__enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.formulário__enviar:hover {
+    background: var(--laranja-escuro);    
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: var(--cinza-escuro);
+    color: var(--branco);
+    font-weight: 700;
+}
+td, th {
+    border: 1px solid var(--preto);
+    padding: 8px 15px;
+}
