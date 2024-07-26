@@ -193,6 +193,7 @@ th {
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo {
@@ -227,6 +228,10 @@ th {
 
 .itens:first-child {
   font-weight: 700;
+}
+
+.itens::before {
+	content: "★";
 }
 
 .imagem-beneficios {
