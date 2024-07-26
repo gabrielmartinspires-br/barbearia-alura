@@ -95,7 +95,6 @@ footer {
 }
 
 main {
-  
 }
 
 form {
@@ -168,9 +167,9 @@ th {
 }
 
 .principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -193,7 +192,12 @@ th {
 }
 
 .mapa {
-  padding: 3em 0;  
+  padding: 3em 0;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p {
@@ -218,11 +222,11 @@ th {
 }
 
 .itens {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 .itens:first-child {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .imagem-beneficios {
